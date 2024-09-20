@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.toggle-checkbox {
+    position: absolute;
+    width: 1rem; 
+    height: 1rem; 
+    border-radius: 9999px;
+    background-color: white;
+    border: 0.25rem solid transparent; 
+    appearance: none;
+    cursor: pointer;
+    transform: translateX(0);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .toggle-checkbox:checked {
+    transform: translateX(100%);
+  }
+
+
+
+  
